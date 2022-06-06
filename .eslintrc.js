@@ -2,6 +2,11 @@ module.exports = {
   plugins: [
     "@typescript-eslint",
   ],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
   overrides: [
     {
       files: ["*.{ts,tsx}"],
