@@ -19,3 +19,6 @@
 Expected: No errors.
 
 Actual: No errors.
+
+Now switch to the `previous` branch. It uses @typescript-eslint 5.26.0 instead of 5.27.0.
+On that branch there are no errors!
